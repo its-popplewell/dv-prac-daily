@@ -108,5 +108,5 @@ p1 = plot(x=1:length(warriors_percentages), y=warriors_percentages)
 p2 = plot(x=1:length(celtics_percentages), y=celtics_percentages)
 h1 = hstack(p1, p2)
 
-img = PNG("iris_plot.png", 12inch, 6inch)
+img = PDF("iris_plot.pdf", 5inch, 3inch)
 draw(img, h2)
